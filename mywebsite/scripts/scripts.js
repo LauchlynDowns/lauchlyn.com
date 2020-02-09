@@ -63,7 +63,7 @@ function changeformobile() {
     document.getElementById("secondaryheader").innerHTML = "WEB DEVELOPER";
     document.getElementById("secondaryheader").innerHTML = "WEB DEVELOPER";
     document.getElementById("navbar-main").style.display = "none";
-    document.getElementById("home-section").style.textIndent = "0";
+    
 
 
 }
@@ -90,7 +90,7 @@ function changeBorderServicesPage() {
 
 function changeBorderProjectsPage() {
 
-    document.getElementById("Projects").style.borderRight = "6px solid purple";
+    document.getElementById("Projects").style.borderRight = "6px solid lightgoldenrodyellow";
 
     document.getElementById("Projects").addEventListener("mouseleave", function () { document.getElementById("Projects").style.borderRight = "0px solid red"; })
 }
