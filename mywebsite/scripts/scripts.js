@@ -107,3 +107,6 @@ function changebordercontactpage() {
 
     document.getElementById("Contact").addEventListener("mouseleave", function () { document.getElementById("Contact").style.borderRight = "0px solid red"; })
 }
+
+
+
