@@ -63,6 +63,7 @@ function changeformobile() {
     document.getElementById("secondaryheader").innerHTML = "WEB DEVELOPER";
     document.getElementById("secondaryheader").innerHTML = "WEB DEVELOPER";
     document.getElementById("navbar-main").style.display = "none";
+    document.getElementById("contact").style.height = "1450px";
     
 
 
