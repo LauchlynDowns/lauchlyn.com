@@ -271,4 +271,8 @@ blink, .blink {
         font-size: 50px;
         width: 100vw;
     }
+
+    .contactarea2 {
+        height: 1450px;
+    }
 }
