@@ -148,13 +148,11 @@ blink, .blink {
 
 .formarea {
     height: 40vw;
-   
     padding-left: 30%;
     padding-right: 30%;
 }
 
 .formholder {
-    
     width: 30%;
     text-align: left;
     display: grid;
@@ -207,5 +205,70 @@ blink, .blink {
     height: 70px;
     border: 75px;
     font-size: 50px;
-    width: 8em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .formarea {
+        height: 40vw;
+        width: 100vw;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .formholder {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        width: 100vw;
+    }
+    .namelabel {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 100vw;
+    }
+    .namefield {
+        grid-area: 2 / 1 / 3 / 2;
+        width: 100vw;
+    }
+    .emaillabel {
+        grid-area: 3 / 1 / 4 / 2;
+        width: 100vw;
+    }
+    .emailfield {
+        grid-area: 4 / 1 / 5 / 2;
+        width: 100vw;
+    }
+    .reasonlabel {
+        grid-area: 5 / 1 / 6 / 2;
+        width: 100vw;
+    }
+    .reasonfield {
+        grid-area: 6 / 1 / 7 / 2;
+        width: 100vw;
+    }
+    .messagelabel {
+        grid-area: 7 / 1 / 8 / 2;
+        width: 100vw;
+    }
+    .messagefield {
+        grid-area: 8 / 1 / 9 / 2;
+        width: 100vw;
+    }
+    .submitbutton {
+        grid-area: 9 / 1 / 10 / 2;
+        width: 100vw;
+    }
+    .div10 {
+        grid-area: 10 / 1 / 11 / 2;
+        width: 100vw;
+    }
+    .forminput {
+        border-radius: 10px;
+        height: 84px;
+        border: 0;
+        height: 70px;
+        border: 75px;
+        font-size: 50px;
+        width: 100vw;
+    }
 }
