@@ -84,20 +84,20 @@ function changeBorderAboutPage() {
 
 function changeBorderServicesPage() {
 
-    document.getElementById("Services").style.borderRight = "6px solid lightgreen";
+    document.getElementById("Services").style.borderRight = "6px solid gray";
 
     document.getElementById("Services").addEventListener("mouseleave", function () { document.getElementById("Services").style.borderRight = "0px solid red"; })
 }
 
 function changeBorderProjectsPage() {
 
-    document.getElementById("Projects").style.borderRight = "6px solid lightgoldenrodyellow";
+    document.getElementById("Projects").style.borderRight = "6px solid #7AA095";
 
     document.getElementById("Projects").addEventListener("mouseleave", function () { document.getElementById("Projects").style.borderRight = "0px solid red"; })
 }
 function changeBorderskillsPage() {
 
-    document.getElementById("Skills").style.borderRight = "6px solid #856A5D";
+    document.getElementById("Skills").style.borderRight = "6px solid #EEE82C";
 
     document.getElementById("Skills").addEventListener("mouseleave", function () { document.getElementById("Skills").style.borderRight = "0px solid red"; })
 }

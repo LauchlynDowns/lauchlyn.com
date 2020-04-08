@@ -150,6 +150,8 @@ blink, .blink {
     height: 40vw;
     padding-left: 30%;
     padding-right: 30%;
+   
+    border:0;
 }
 
 .formholder {
@@ -269,7 +271,16 @@ blink, .blink {
         height: 70px;
         border: 75px;
         font-size: 50px;
-        width: 80vw;
+        width: 50vw;
     }
-   
+    .navbar-main {
+       display: none;
+    }
+    .scroller {
+        display: none;
+    }
+    .mousey {
+        display:none;
+    }
 }
+
