@@ -21,7 +21,7 @@
 
 
 
-<body id="body">
+<body onload="start()">
 
     <div class="navbar-main" id="navbar-main" style="color:black;">
         <a href="#top">
@@ -53,14 +53,21 @@
 
 
     <div class="container">
-        <div id="top" id="home-section"
+        <div id="top" id="home-section" style="background-image: url(mywebsite/images/arran-photo.jpg);"
             class="home-section">
-            this is the new home section.
+            <h1 onload="" id="mainheader"></h1><br>
+            <h2 id="secondaryheader">
+                <div />
 
         </div>
-       
+        </h2>
 
-      
+        <h1>
+            <div style="position: absolute; bottom: 0; left: 50%; margin-bottom: 20px;" class="scroll-downs">
+                <div class="mousey">
+                    <div style="opacity: 1;" class="scroller"></div>
+                </div>
+        </h1>
 
 
     </div>
@@ -70,14 +77,11 @@
     </div>
 
     </div>
-    <div id="services" style="background-color:rgb(153, 153, 153)" data-aos="fade-down" class="home-section">
+    <div id="services" data-aos="fade-down" class="home-section">
         <h1 style="font-size: 40px;">Services</h1>
     </div>
     <div id="projects" data-aos="fade-down" style="background-color:#7AA095;" class="home-section">
         <h1 style="font-size: 40px;">Previous Projects</h1>
-        <div class="projectscontainer">
-            this is where the projects go
-        </div>
     </div>
     <div id="skills" data-aos="fade-down" style="background-color: #EEE82C;" class="home-section">
         <h1 style="font-size: 40px;">Skills</h1>

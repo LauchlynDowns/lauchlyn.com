@@ -64,7 +64,7 @@ function changeformobile() {
     document.getElementById("secondaryheader").innerHTML = "WEB DEVELOPER";
     document.getElementById("navbar-main").style.display = "none";
     document.getElementById("contact").style.height = "1450px";
-
+    
 
 
 }
@@ -107,14 +107,6 @@ function changebordercontactpage() {
     document.getElementById("Contact").style.borderRight = "6px solid #FC5130";
 
     document.getElementById("Contact").addEventListener("mouseleave", function () { document.getElementById("Contact").style.borderRight = "0px solid red"; })
-}
-
-
-
-
-
-document.onscroll=function() {
-document.getElementById("navbar-main").style.display = "block";
 }
 
 
